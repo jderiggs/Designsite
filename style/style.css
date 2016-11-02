@@ -1,0 +1,292 @@
+body{
+    /* 
+    This will place your WF on the body so that you can edit your CSS to match.
+
+    Save the WF with a lowered opacity (25%) in Photoshop
+    Apply the Hue & Saturation Adjustment layer and "colorize" it.
+
+    */
+	background-image: url(/images/wireframe.png);
+    background-position:top center;
+    background-repeat: no-repeat;
+    background-position:fixed;
+    background-size: 1040px 1040px;
+}
+    
+}
+
+#wrapper{
+    /* This will lock your design to 960px and centre it */
+    margin:10px auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
+.logo{
+    display: inline-block;
+    align-content: center;
+    margin: 7px;
+    margin-left: 5px;
+    margin-top: -10%;
+    padding: 0 0 0 0;
+    position: relative;
+}
+
+h1{
+    position: relative;
+    text-align: center;
+    font-family: "Myriad Pro";
+    text-transform: uppercase;
+    font-size: 24px;
+    margin: 65.7px 0 0 49.2%;
+    width: 10%;
+    text-decoration: none;
+    font-weight: normal;
+    list-style: none;
+
+}
+
+h2{
+    position: absolute;
+    text-align: right;
+    font-family: "Myriad Pro";
+    font-size: 12px;
+    word-spacing: 7px;
+    margin: 13pt 0 0 849.5px;
+    text-decoration: none;
+    font-weight: normal;
+    list-style: none;
+    width:70px;
+
+}
+
+.search{
+    margin: -37px 0 0 822.5px;
+    padding: 0 0 0 0;
+    float:inherit;
+    position: absolute;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.food{
+    margin: 101px 0 0 4px;
+    padding: 0 0 0 0;
+    float:inherit;
+    position: absolute;
+}
+
+.daily{
+    margin: 101px 0 0 652.8px;
+    padding: 0 0 0 0;
+    float:inherit;
+    position: absolute;
+}
+
+.smallfood{
+    margin: 585px 0 0 654px;
+    padding: 0 0 0 0;
+    float:inherit;
+    position: absolute;
+}
+
+.smallfood2{
+    margin: 585px 0 0 817.2px;
+    padding: 0 0 0 0;
+    float:inherit;
+    position: absolute;
+}
+
+nav ul li{
+    height: 35px;
+    width: 142px;
+    line-height: 36px;
+    position: relative;
+    text-align: center;
+    font-family: "Myriad Pro";
+    text-transform: uppercase;
+    font-size: 18px;
+    float:left;
+    margin: 3px 0px 0px 0px;
+    text-decoration: none;
+    list-style: none;
+    border: 1px solid black;
+    background-color: #E6E7E8;
+
+}
+
+nav ul li:hover{
+    background-color: #CCC;
+    transition: ease-in 0.2s;
+    
+}
+
+nav ul li:active{
+    background-color: #AAA;
+    transition: none;
+}
+
+li a{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.block{
+    margin: 371px 0 0 4px;
+    padding: 0 0 0 0;
+    float:inherit;
+    position: absolute;
+}
+
+p{
+    float: left;
+    position: relative;
+    text-align: left;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 358px;
+    margin-left: 5px;
+    width: 545px;
+}
+
+.block2{
+    margin: 585.5px 0 0 4px;
+    padding: 0 0 0 0;
+    float:inherit;
+    position: absolute;
+}
+
+.divider{
+    margin: -34px 0 0 894px;
+    position: absolute;
+}
+
+p2{
+    float: left;
+    position: relative;
+    text-align: left;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 46.5px;
+    margin-left: 5px;
+    width: 545px;
+}
+
+nav2 ul2 li2{
+    display: inline-block;
+    height: 43.2px;
+    width: 303px;
+    line-height: 43.2pxpx;
+    position: relative;
+    text-align: center;
+    font-family: "Myriad Pro";
+    text-transform: uppercase;
+    font-size: 18px;
+    float:inherit;
+    text-decoration: none;
+    list-style: none; 
+    border: 1px solid black;
+    background-color: #E6E7E8;
+    top: 314.5px;
+    left: 104px;
+    margin: 0 0 6px 0;
+}
+
+nav2 ul2 li2:hover{
+    background-color: #CCC;
+    transition: ease-in 0.2s;
+    
+}
+
+nav2 ul2 li2:active{
+    background-color: #AAA;
+    transition: none;
+}
+
+li2 a{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    line-height: 44.2px
+    
+}
+
+nav3 ul3 li3{
+    display: inline-block;
+    float:left;
+   position: relative;
+    text-align: right;
+    font-family: "Myriad Pro";
+    font-size: 12px;
+    word-spacing: 0px;
+    margin: 2px 0 0 0px;
+    text-decoration: none;
+    font-weight: normal;
+    list-style: none;
+    width:30px;
+    top: -613px;
+    left: 309.5px;
+}
+
+li3 a{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav4 ul4 li4{
+    position: relative;
+    display: inline-block;
+    height: 17px;
+    width: 100%;
+    text-align: center;
+    font-family: "Myriad Pro";
+    text-transform: uppercase;
+    font-size: 9.27px;
+    float:left;
+    border: 1px solid black;
+    background-color: #E6E7E8;
+}
+
+nav4 ul4 li4:hover{
+    background-color: #CCC;
+    transition: ease-in 0.2s;
+}
+
+nav4 ul4 li4:active{
+    background-color: #AAA;
+    transition: none;
+}
+
+li4 a{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    line-height: 18px;
+}
+
+li4{
+    white-space: nowrap;
+}
+
+nav4 ul4 li4{
+    top:249px;
+    width: 93.5px;
+    left: -272px;
+} /* to assist in relative position */
+
+#wrapper{
+    
+    margin: 10px auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+
+}
