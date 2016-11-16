@@ -141,9 +141,16 @@ li a{
     position: absolute;
 }
 
-.fill{
-    float:inherit;
+.filler{
     position: absolute;
+    margin: 365px 0 0 4px;
+    border-radius: 25px;
+}
+
+.filler2{
+    position: absolute;
+    margin: 580px 0 0 4px;
+    border-radius: 25px;
 }
 
 p{
