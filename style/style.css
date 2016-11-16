@@ -6,7 +6,7 @@ body{
     Apply the Hue & Saturation Adjustment layer and "colorize" it.
 
     */
-	background-image: url(/images/wireframe.png);
+	background-image: url(/images/background1.png);
     background-position:top center;
     background-repeat: no-repeat;
     background-position:fixed;
@@ -26,28 +26,21 @@ body{
 .logo{
     display: inline-block;
     align-content: center;
-    margin: 7px;
-    margin-left: 5px;
-    margin-top: -10%;
-    padding: 0 0 0 0;
     position: relative;
 }
 
-h1{
-    position: relative;
-    text-align: center;
-    font-family: "Myriad Pro";
-    text-transform: uppercase;
-    font-size: 24px;
-    margin: 65.7px 0 0 49.2%;
-    width: 10%;
+.title{
+    display: inline-block;
+    position: absolute;
+    font-size: 40px;
+    left: 47%;
     text-decoration: none;
     font-weight: normal;
     list-style: none;
 
 }
 
-h2{
+h1{
     position: absolute;
     text-align: right;
     font-family: "Myriad Pro";
@@ -100,37 +93,42 @@ ul{
     position: absolute;
 }
 
-nav ul li{
+nav[role="main"] ul li{
     height: 35px;
     width: 142px;
-    line-height: 36px;
+    line-height: 35px;
     position: relative;
     text-align: center;
-    font-family: "Myriad Pro";
+    font-family: "Gill Sans MT","Myriad Pro", "Arial", "Times New Roman";
     text-transform: uppercase;
     font-size: 18px;
     float:left;
-    margin: 3px 0px 0px 0px;
+    margin: 4px 3px 0px 3px;
     text-decoration: none;
     list-style: none;
-    border: 1px solid black;
-    background-color: #E6E7E8;
-
+    border-radius: 5px;
+    background-color: #8BC53F;
 }
 
-nav ul li:hover{
-    background-color: #CCC;
-    transition: ease-in 0.2s;
+a{
+    display:block;
+}
+
+
+nav[role="main"] ul li:hover{
+    background-color: #00A551;
+    border-radius: 25px;
+    transition: ease-in 0.3s;
     
 }
 
-nav ul li:active{
-    background-color: #AAA;
+nav[role="main"] ul li:active{
+    background-color: darkgreen;
     transition: none;
 }
 
 li a{
-    color: black;
+    color: white;
     list-style: none;
     text-decoration: none;
     
@@ -143,16 +141,21 @@ li a{
     position: absolute;
 }
 
+.fill{
+    float:inherit;
+    position: absolute;
+}
+
 p{
     float: left;
     position: relative;
     text-align: left;
-    font-family: "Myriad Pro";
-    font-size: 14px;
+    font-family: "Gill Sans MT", "Myriad Pro", "Arial", "Times New Roman";
+    font-size: 15px;
     display: inline-block;
     margin-top: 358px;
     margin-left: 5px;
-    width: 545px;
+    width: 620px;
 }
 
 .block2{
@@ -163,7 +166,7 @@ p{
 }
 
 .divider{
-    margin: -34px 0 0 894px;
+    margin: -34px 0 0 891px;
     position: absolute;
 }
 
@@ -171,7 +174,7 @@ p2{
     float: left;
     position: relative;
     text-align: left;
-    font-family: "Myriad Pro";
+    font-family: "Gill Sans MT", "Myriad Pro", "Arial", "Times New Roman";
     font-size: 14px;
     display: inline-block;
     margin-top: 46.5px;
@@ -179,104 +182,105 @@ p2{
     width: 545px;
 }
 
-nav2 ul2 li2{
+nav[role="sub"] ul li{
     display: inline-block;
-    height: 43.2px;
+    height: 44.5px;
     width: 303px;
-    line-height: 43.2pxpx;
+    line-height: 44.5px;
     position: relative;
     text-align: center;
-    font-family: "Myriad Pro";
+    font-family: "Gill Sans MT", "Myriad Pro", "Arial", "Times New Roman";
     text-transform: uppercase;
     font-size: 18px;
     float:inherit;
     text-decoration: none;
     list-style: none; 
-    border: 1px solid black;
-    background-color: #E6E7E8;
-    top: 314.5px;
-    left: 104px;
-    margin: 0 0 6px 0;
+    border-radius: 5px;
+    background-color: #8BC53F;
+    top: 340px;
+    left: 30px;
+    margin: 0 0 6.5px 0;
 }
 
-nav2 ul2 li2:hover{
-    background-color: #CCC;
-    transition: ease-in 0.2s;
-    
+nav[role="sub"] ul li:hover{
+    background-color: #00A551;
+    border-radius: 25px;
+    transition: ease-in 0.3s;
 }
 
-nav2 ul2 li2:active{
-    background-color: #AAA;
+nav[role="sub"] ul li:active{
+    background-color: darkgreen;
     transition: none;
 }
 
-li2 a{
-    color: black;
+nav[role="sub"] li a{
+    color: white;
     list-style: none;
     text-decoration: none;
     line-height: 44.2px
     
 }
 
-nav3 ul3 li3{
+nav[role="top"] ul li a{
     display: inline-block;
     float:left;
    position: relative;
     text-align: right;
-    font-family: "Myriad Pro";
+    font-family: "Gill Sans MT", "Myriad Pro", "Arial", "Times New Roman";
     font-size: 12px;
-    word-spacing: 0px;
-    margin: 2px 0 0 0px;
+    word-spacing: 10px;
     text-decoration: none;
     font-weight: normal;
     list-style: none;
     width:30px;
-    top: -613px;
-    left: 309.5px;
+    top: -599px;
+    left: 307px;
+    color: #00A551;
 }
 
-li3 a{
-    color: black;
+nav[role="top"] li a{
     list-style: none;
     text-decoration: none;
 }
 
-nav4 ul4 li4{
+nav[role="bottom"] ul li{
     position: relative;
     display: inline-block;
     height: 17px;
     width: 100%;
     text-align: center;
-    font-family: "Myriad Pro";
+    font-family: "Gill Sans MT", "Myriad Pro", "Arial", "Times New Roman";
     text-transform: uppercase;
     font-size: 9.27px;
+    margin-right: 2px;
     float:left;
-    border: 1px solid black;
-    background-color: #E6E7E8;
+    border-radius: 5px;
+    background-color: #8BC53F;
 }
 
-nav4 ul4 li4:hover{
-    background-color: #CCC;
+nav[role="bottom"] ul li:hover{
+    background-color: #00A551;
+    border-radius: 25px;
     transition: ease-in 0.2s;
 }
 
-nav4 ul4 li4:active{
-    background-color: #AAA;
+nav[role="bottom"] ul li:active{
+    background-color: darkgreen;
     transition: none;
 }
 
-li4 a{
-    color: black;
+nav[role="bottom"] li a{
+    color: white;
     list-style: none;
     text-decoration: none;
     line-height: 18px;
 }
 
-li4{
+nav[role="bottom"] li{
     white-space: nowrap;
 }
 
-nav4 ul4 li4{
+nav[role="bottom"] ul li{
     top:249px;
     width: 93.5px;
     left: -272px;
