@@ -25,6 +25,13 @@ li{
     margin-right: 2rem;
 }
 
+#headerbar li a{
+    color:white;
+}
+
+#headerbar a{
+    top: 50%;
+}
 a{
     display: block;
 }
