@@ -1,0 +1,43 @@
+html{
+    font-size:62.5%;
+}
+
+body{
+    background-image: url(/images/wireframe-background.png);
+}
+
+#headerbar{
+    height: 2.5rem;
+    background: #66BBDD;
+    position: fixed;
+    width: 100%;
+}
+
+li{
+    list-style: none;
+    font-size: 2rem;
+    height: 2.5rem;
+    float:left;
+    list-style:none;
+    background-color:none;
+    color:white;
+    line-height: 2.5rem;
+    margin-right: 2rem;
+}
+
+a{
+    display: block;
+}
+
+#headerbar2 {
+    margin-top:2.5rem;
+    height: 12.5rem;
+    background: #5AA2c7;
+    position: relative;
+}
+
+#headerbar3 {
+    height: 2.5rem;
+    position: relative;
+    background: #5EBAA8;
+}
