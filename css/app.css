@@ -15,9 +15,9 @@ body{
     z-index: 1;
 }
 
-li{
+#headerbar li{
     list-style: none;
-    font-size: 2rem;
+    font-size: 1rem;
     height: 2.5rem;
     float:right;
     list-style:none;
@@ -62,28 +62,61 @@ p{
     display:none;
     font-size:50rem;
 }
-
+    .hamburgerbar{
+        display:none;
+}
 
 @media screen and (max-width: 42rem) {
+    #headerbar{
+        height:2rem;
+    }
+    #headerbar li a{
+        font-size: 1rem;
+        line-height: 2rem;
+    }
     h1{
         font-size: 3rem;
+        line-height: 11rem;
+    }
+        #headerbar2{
+        margin-top: 0;
+        height: 9rem;
+    }
+        #headerbar3{
+        height:1.75rem;
     }
 }
 
 @media screen and (max-width:35rem) {
+    #headerbar li a{
+        font-size: 1rem;
+        margin-left:-1rem;
+    }
     h1{
         font-size: 2rem;
+        line-height: 10.5rem;
     }
+        #headerbar2{
+        margin-top: 0;
+        height: 8rem;
+    }
+    .hamburgerbar{
+        display:none;
+    }
+        #headerbar3{
+        height:1.5rem;
+    }
+    
 }
 
 @media screen and (max-width: 30rem) {
     h1{
-        font-size:2rem;
+        font-size:1.5rem;
         line-height: 2rem;
         width:8rem;
         float:right;
         position:relative;
-        padding-top: 3rem
+        padding-top: 0;
     }
     #headerbar li {
         font-size:2rem;
@@ -94,12 +127,18 @@ p{
     }
     #headerbar{
         display:none;
+        
     }
     #headerbar2{
         margin-top: 0;
+        height: 6rem;
     }
+    #headerbar3{
+        height:1rem;
+    }
+    
     .hamburgerbar{
-        
+        display:inherit;
     }
 }
     
