@@ -94,10 +94,27 @@ h1{
     background-color: #5AA2c7;
 }
 
-p{
-    display:inherit;
-    font-size:3rem;
-    width: 100%;
+#pbackground1{
+    margin-top: 4rem;
+    position: relative;
+    background-color: #5AA2c7;
+    
+}
+
+#pbackground1 h2{
+    color:white;
+    padding-top: 2rem;
+    margin-left: 2.5%
+}
+
+#pbackground1 p{
+    color: white;
+    margin-top: 1rem;
+    font-size:1rem;
+    width: 90%;
+    padding: 1rem 0rem 2rem 0;
+    text-align: left;
+    margin-left: 5%;
 }
     .hamburgerbar{
         display:none;
