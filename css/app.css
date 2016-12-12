@@ -308,13 +308,13 @@ h1{
         #headerbar3{
         height:1.75rem;
     }
-        .logo{
-    display: block;
-    position:absolute;
-    width: 100px;
-    height: 100px;
-    margin-left: .5rem;
-    top: 2.2rem;
+    .logo{
+        display: block;
+        position:absolute;
+        width: 100px;
+        height: 100px;
+        margin-left: .5rem;
+        top: 2.2rem;
 }
     #headerbar3 li{
         font-size: 1rem;
@@ -385,6 +385,8 @@ h1{
         margin-top: 2rem;
     }
     
+    
+    
 }
 
 @media screen and (max-width: 30rem) {
@@ -416,8 +418,7 @@ h1{
     }
     
     .hamburgerbar{
-        float:left;
-        position:relative;
+        position:absolute;
         display:inherit;
         font-size: 3rem;
         top: 0rem;
