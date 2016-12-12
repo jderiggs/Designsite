@@ -51,7 +51,7 @@ h1{
     display:block;
     color:white;
     text-align: center;
-    line-height: 12.5rem;
+    line-height: 0.5rem;
     font-size: 2.5rem;
     float: left;
     margin-left: 12rem;
@@ -62,6 +62,13 @@ h1{
     height: 12.5rem;
     background: #5AA2c7;
     position: relative;
+}
+
+#headerbar2 p{
+    float:right;
+    color: white;
+    text-align: right;
+    padding-top: 2rem;
 }
 
 #headerbar3 {
@@ -160,6 +167,29 @@ h1{
 }
 
 #pbackground3 p{
+    color: white;
+    margin-top: 1rem;
+    font-size:1rem;
+    width: 90%;
+    padding: 1rem 0rem 2rem 0;
+    text-align: left;
+    margin-left: 5%;
+}
+
+#pbackground4{
+    margin-top: 4rem;
+    position: relative;
+    background-color: #5AA2c7;
+    
+}
+
+#pbackground4 h2{
+    color:white;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+#pbackground4 p{
     color: white;
     margin-top: 1rem;
     font-size:1rem;
@@ -287,8 +317,15 @@ h1{
     color: #5AC774
 }
 
+@media screen and (min-width: 54.4rem) {
+    h1{line-height: 12.5rem}
+}
 
 @media screen and (max-width: 40rem) {
+    #headerbar2 p{
+        display:none
+    }
+    
     #headerbar{
         height:2rem;
     }
@@ -434,7 +471,7 @@ h1{
     }
     
     .closenav{
-        font-size:3rem;
+        font-size:2.5rem;
         position: relative;
         width 2rem;
         height: 4rem;
