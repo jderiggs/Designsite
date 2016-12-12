@@ -96,6 +96,10 @@ h1{
     background-color: #5AA2c7;
 }
 
+#headerbar3 .desktop-nav{
+    margin-left: 0;
+}
+
 #pbackground1{
     margin-top: 4rem;
     position: relative;
@@ -169,6 +173,10 @@ h1{
     display:none;
 }
 
+.closenav{
+    display:none;
+}
+
 .logo{
     display: block;
     position:absolute;
@@ -224,18 +232,61 @@ h1{
 }
 
 #offCanvas {
-    background-color:black;
+    background-color:#222;
     z-index: 2;
+    height: 100%;
 }
 
-#off-canvas-wrapper{
-    background-color:black;
-    z-index: 2;
+#offCanvas h3{
+    position:relative;
+    color:white;
+    padding-left: .2rem;
+    margin-top: .5rem;
 }
 
-#off-canvas-wrapper-inner{
-    z-index: 2;
+#offCanvas p{
+    text-align: center;
+    color: white;
 }
+
+#offCanvas ul{
+    list-style: none;
+}
+
+#offCanvas .sidebar1{
+    text-align: center;
+    margin-left: 0;
+}
+
+#offCanvas .sidebar2{
+    background-color: #333;
+    margin-left: 0rem;
+    padding-left: 1rem;
+}
+
+#offCanvas .sidebar3{
+    background-color: #333;
+    margin-left: 0rem;
+    padding-left: 1rem;
+}
+
+#offCanvas .sidebar4{
+    background-color: #333;
+    margin-left: 0rem;
+    padding-left: 1rem;
+}
+
+#offCanvas a{
+    padding: .5rem 0;
+    color: #5AC774;
+}
+
+#offCanvas .sidebar1 a{
+    padding: .5rem 0rem 0.5rem 2rem;
+    background-color: #333;
+    color: #5AC774
+}
+
 
 @media screen and (max-width: 40rem) {
     #headerbar{
@@ -366,12 +417,31 @@ h1{
     
     .hamburgerbar{
         float:left;
+        position:relative;
         display:inherit;
-        position:absolute;
-        top: 1.5rem;
-        width:50px;
-        height: 50px;
+        font-size: 3rem;
+        top: 0rem;
+        width:3rem;
+        height: 4rem;
+        list-style: none;
         z-index: 1;
+        clear: both;
+    }
+    
+    .hamburgerbar a{
+        color:white;
+    }
+    
+    .closenav{
+        font-size:3rem;
+        position: relative;
+        width 2rem;
+        height: 4rem;
+        right: 0rem;
+        bottom: 4.0rem;
+        display: inherit;
+        float:right;
+        clear:both;
     }
     .logo{
     display: block;
