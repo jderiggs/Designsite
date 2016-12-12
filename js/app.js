@@ -1,4 +1,4 @@
-$(document).foundation()
+$(document).foundation();
 
 var myIndex = 0;
 carousel();
