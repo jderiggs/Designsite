@@ -90,7 +90,7 @@ h1{
     line-height: 2.5rem;
     padding: 0;
     float:left;
-    width:25%;
+    width:20%;
 }
 
 
@@ -106,6 +106,23 @@ h1{
 #headerbar3 .desktop-nav{
     margin-left: 0;
 }
+
+#socialmedia{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    float:left;
+    top:-1rem;
+    line-height: 1.5rem;
+    width:10.7rem;
+}
+
+#socialmedia a{
+    float: left;
+    padding-bottom: 0.7rem;
+    padding-top: .3rem;
+}
+
 
 #pbackground1{
     margin-top: 4rem;
@@ -216,6 +233,15 @@ h1{
     top: 0.5rem;
 }
 
+.fontlogo{
+    margin-left: 7rem;
+    display: block;
+    float: left;
+    position: absolute;
+    width: 350px;
+    height: 0px;
+}
+
 .animals {
     width: auto;
     align-content: center;
@@ -318,10 +344,34 @@ h1{
 }
 
 @media screen and (min-width: 54.4rem) {
-    h1{line-height: 12.5rem}
+
+    .fontlogo{
+    margin-top: -16rem;
+    display: block;
+    position: absolute;
+    left: 50%;
+    width: 1000px;
+    height: 0px;
+}
 }
 
 @media screen and (max-width: 40rem) {
+    #socialmedia{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    float:left;
+    top:-1rem;
+    line-height: 1.5rem;
+    width:10.7rem;
+}
+
+#socialmedia a{
+    float: left;
+    padding-bottom: .5rem;
+    padding-top: 0rem;
+}
+    
     #headerbar2 p{
         display:none
     }
@@ -362,7 +412,6 @@ h1{
         line-height: 1.75rem;
         padding: 0;
         float:left;
-        margin-top: -0.5rem;
         margin-left: 0.rem;
         width: ;
 }
