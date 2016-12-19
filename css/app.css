@@ -201,7 +201,7 @@ h1{
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 2rem;
-    width: 100%;
+    width: 50%;
     display: block;
 }
 
@@ -527,6 +527,10 @@ form{
 form{
     width: 40%;
 }
+    
+    .sponsors{
+        width:100%;
+    }
     
 #socialmedia a{
     float: left;
