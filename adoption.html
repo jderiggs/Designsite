@@ -24,10 +24,7 @@
     <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
     <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
         
-        <h1>
-            <a href= index.html> <img src="images/FontLogo.svg"/> </a>
-            
-        </h1>
+        <h3>Humane Society Yukon</h3>
         
         <div class="closenav" data-toggle="offCanvas">
             <a>&#10006;
@@ -35,27 +32,27 @@
         </div> <!-- closes sidebar-->
         
             <ul class="sidebar1">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
             </ul>
         
         <p>Pet Adoption</p>
         
             <ul class="sidebar2">
-                <li><a href="adopt.html">Happy Tails</a></li>
-                <li><a href="adopt.html">Adoption</a>
+                <li><a href="adoption.html">Happy Tails</a></li>
+                <li><a href="adoption.html">Adoption</a>
                     <ul>
-                        <li><a href="adopt.html">Responsibilities</a></li>
-                        <li><a href="adopt.html">The Cost</a></li>
-                        <li><a href="adopt.html">Are You Ready for a Dog?</a></li>
-                        <li><a href="adopt.html">Available Dogs</a></li>
-                        <li><a href="adopt.html">Available Cats</a></li>
+                        <li><a href="adoption.html">Responsibilities</a></li>
+                        <li><a href="adoption.html">The Cost</a></li>
+                        <li><a href="adoption.html">Are You Ready for a Dog?</a></li>
+                        <li><a href="adoption.html">Available Dogs</a></li>
+                        <li><a href="adoption.html">Available Cats</a></li>
                     </ul>
                 </li>
             </ul>
         <p>Support Us</p>
             <ul class="sidebar3">
-                <li><a href="#">Volunteer</a></li>
+                <li><a href="support.html">Volunteer</a></li>
                     <ul>
                         <li><a href="support.html">Membership</a></li>
                     </ul>
@@ -89,9 +86,23 @@
       
       <div id="headerbar">
           <nav>
-              <img src = images/twitter.png height= 25 width =25 />
-          <img src = images/facebook.png height= 25 width =25 />
-          <img src = images/instagram.png height= 25 width =25 />
+              <div id="socialmedia">
+                <a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fwww.humanesocietyyukon.ca%2F&ref_src=twsrc%5Etfw&text=Humane%20Society%20Yukon%20-%20Home&tw_p=tweetbutton&url=http%3A%2F%2Fwww.humanesocietyyukon.ca%2F">  
+                <img src=images/twitter.png 
+                     height="25px" 
+                     width="25px">
+                </a>
+                <a href="https://www.facebook.com/humaneyukon/">
+                <img src=images/facebook.png 
+                     height="25px" 
+                     width="25px">
+                </a>
+                <a href="https://www.instagram.com/humanesocietyyukon/">
+                <img src=images/instagram.png 
+                     height="25px" 
+                     width="25px">
+                </a>
+              </div>
               <ul>
                 <li> <a href="index.html">Home</a></li>
                 <li> <a href="donate.html">Donate</a></li>                
@@ -108,14 +119,15 @@
               width="500px"></a>
               
           </div> <!-- blue bar with logo and contact info -->
-          
-          <img src="images/FontLogo.png" height="500" width="500"/>
-          
+          <div class="fontlogo">
+            <img src="SVG/FontLogo.svg" height="2000" width="2000"/>
+          </div>
       </div>
     
     <div id="headerbar3">
         <nav>
             <ul class="desktop-nav">
+                <li> <a href="index.html">Home</a></li>
                 <li> <a href="about.html">About Us</a></li>
                 <li> <a href="adoption.html">Adoption</a></li>
                 <li> <a href="support.html">Support Us</a></li> 
@@ -131,6 +143,8 @@
     <img class="animals w3-animate-right" src="images/slideshow/animal0.jpg">
     <img class="animals w3-animate-right" src="images/slideshow/animal1.jpg">
     <img class="animals w3-animate-right" src="images/slideshow/animal2.jpg">
+    <img class="animals w3-animate-right" src="images/slideshow/animal3.jpg">
+    <img class="animals w3-animate-right" src="images/slideshow/animal4.jpg">
     <a class="leftarrow" onclick="plusDivs(-1)"><img src="images/slideshow/arrow-left.svg"></a>
     <a class="rightarrow" onclick="plusDivs(+1)"><img src="images/slideshow/arrow-right.svg"></a>
       
@@ -200,29 +214,25 @@ It’s important to consider  your family before adopting a dog. Do you have you
       
     <div id="pbackground2">
         <h2>Costs of owning a pet</h2>
-        <p>Make sure you consider the costs of responsible pet ownership before adopting a dog or cat!</p><br>
+        <p>Make sure you consider the costs of responsible pet ownership before adopting a dog or cat! The following displays a rough estimate of the costs of owning a dog or a cat.</p><br>
         
-       <ul>
-           <img src= images/dogcost.png height= 700 width =400/></ul>
-        <img src =images/catcost.png height=700 width= 400/>
+        <div class="costs">
+            <img src= images/dogcost.png height= 700 width =400/>
+            <img src =images/catcost.png height=700 width= 400/>
+        </div>
     </div>
       
     <div id="pbackground3">
         
     <h2>Adoption</h2>
-        
-    <!--Not sure if you can help me with this, but wanted the costs to be side by side....-->    
-    <p>
-        <ul>
-            
-            <a href = dogs.html><img src = images/dog01.jpg height = 300 width = 400 /></a>
-            Browse available Dogs
-           
-            <a href = cats.html><img src = images/cat01.jpg height = 300 width = 400 /></a>
-             Browse available Cats
-        
-    
-        </ul>
+        <div class="adoptpics">
+            <ul>
+                <a href = dogs.html><img src = images/dog01.jpg height = 300 width = 400 /></a>
+                <a href = dogs.html>Browse available dogs</a>
+                <a href = cats.html><img src = images/cat01.jpg height = 300 width = 400 /></a>
+                <a href = dogs.html>Browse available cats</a>
+            </ul>
+        </div> 
     </div>
         
     <div id="pbackground4">
@@ -234,7 +244,6 @@ Tuesday - Friday | 12pm - 7pm<br>
           Saturday | 10am - 6pm</p>  
     </div>
         
-    </div> <!-- paragraph div-->
     </div> <!-- off-canvas-menu-content-->
     </div> <!-- off-canvas position-left-->
     </div> <!-- off-canvas wrapper-->
